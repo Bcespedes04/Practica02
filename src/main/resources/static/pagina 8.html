@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anime Haikyuu</title>
+        <link rel="stylesheet" href="css/estilos.css"/>
+        <link rel="stylesheet" href="static.css/estilos.css" type="text/css"/>
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <header id="encabezado">
+                <h1>Anime Haikyuu</h1>
+            </header>
+        </div>
+
+        <nav id="menu">
+            <a href="pagina7.html">Atrás</a>
+            <a href="index.html">Home</a>
+        </nav>
+
+        <section id="contenido">
+            <form>
+                <label>Colores recomendados para la siguiente página:</label><br>
+                <input type="color" name="color1" value="#00ff91"><br>
+                <input type="color" name="color2" value="#EF280F"><br><br>
+
+                <label>Escribe un breve resumen de tu anime favorito y por qué deberíamos hacer una aplicación web de este. El más comentado será el siguiente en tenerlo:</label><br>
+                <textarea name="resumen" rows="5" cols="50"></textarea><br><br>
+
+                <label>Fecha en la que les gustaría ver esta aplicación:</label><br>
+                <input type="date" name="fecha" min="2024-06-20" max="2024-12-31"><br><br>
+
+                <label>Escribe tu email para mantenerte informado de las siguientes aplicaciones:</label><br>
+                <input type="email" name="email" placeholder="Digite el email"><br><br>
+
+                <label>Sube alguna imagen que te gustaría que esté dentro de la aplicación:</label><br>
+                <input type="file" name="imagen" accept="image/png, image/jpeg"><br><br>
+
+                <label>Escribe tu teléfono para mantenerte informado de las siguientes aplicaciones:</label><br>
+                <input type="tel" name="telefono" placeholder="8888-8888"><br><br>
+
+                <label>Escribe el lenguaje que te gustaría que utilicemos:</label><br>
+                <select name="lenguaje">
+                    <option value="java">Java</option>
+                    <option value="net_csharp">.NET C#</option>
+                    <option value="python">Python</option>
+                </select><br><br>
+
+                <input type="checkbox" name="terminos" required> <span>Términos y condiciones</span><br><br>
+
+                <input type="reset" value="Limpiar"><br><br>
+                <input type="submit" value="Enviar"><br><br>
+            </form>
+        </section>
+
+        <footer id="piePagina">
+            Derechos Reservados &copy; 2024
+            <address style="display: inline;">San José</address> 
+            <address style="display: inline;">Tel +506 87813818</address>
+        </footer>
+    </body>
+</html>

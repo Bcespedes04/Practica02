@@ -1,0 +1,82 @@
+#encabezado {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8%;
+    width: 100%;
+    background-color: #496D8D;
+    color: white;
+}
+
+#encabezado h1 {
+    display: inline;
+}
+
+#menu {
+    position: absolute;
+    top: 8%;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: #ff9900;
+    color: black;
+    padding-left: 10px
+}
+
+#menu a:visited {
+    color: navy;
+}
+
+#menu a:hover {
+    background-color: white;
+    color: orangered;
+}
+
+#contenido {
+    position: absolute;
+    top: 12%;
+    left: 0%;
+    height: 90%;
+    width: 100%;
+    background-color: #ffcc99;
+    color: black;
+    overflow: auto;
+    padding-left: 20px;
+}
+
+#piePagina {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5%;
+    width: 100%;
+    background-color: #496D8D;
+    color: white;
+    text-align: center;
+}
+    
+#encabezadoTabla {
+    font-size: 10px;
+    color: white;
+    background-color: cadetblue;
+}
+
+#menu1 {
+    top: 8%;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: #ff9900;
+    color: black;
+}
+
+#menu1 a:visited {
+    color: navy;
+}
+
+#menu1 a:hover {
+    background-color: white;
+    color: orangered;
+}
+
+
